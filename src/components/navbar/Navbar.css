@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: gray;
+}
+.nav-list{
+    list-style: none;
+}
+.nav-item{
+    display: inline-block;
+    padding: 20px;
+}
+.nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color: lightblue;
+}
+.buttonm{
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+.buttonm:hover{
+    background-color: #fff;
+    color: black;
+}
